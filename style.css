@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .header {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+  }
+  
+  .offer {
+    color: #ff4800;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .language {
+    font-weight: 500;
+  }
+  
+  .login-box {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .login-logo {
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #02054c;
+    margin-bottom: 30px;
+  }
+  
+  .switch {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f3f3f3;
+    margin-bottom: 20px;
+  }
+  
+  .switch button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .switch .active {
+    background: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .password-wrapper input {
+    width: 100%;
+    padding-right: 40px;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .qr {
+    font-size: 14px;
+    margin: 10px 0 20px;
+    color: #555;
+  }
+  
+  .submit {
+    width: 100%;
+    padding: 14px;
+    background: #ff9c85;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
